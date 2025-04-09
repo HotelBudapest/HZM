@@ -20,7 +20,7 @@ emotion_colors = {
 }
 default_color = (128, 128, 128) # Gray as default if emotion not in map
 # --- Configuration ---
-detector_backend = 'opencv' 
+detector_backend = 'mtcnn'
 analysis_interval = 0.25 # How often to run analysis (in seconds) - adjust as needed
 
 # --- Shared Resources ---
